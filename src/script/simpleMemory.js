@@ -98,13 +98,16 @@ if (initCheck()) {
         blogUser: "",
         blogAvatar: "",
         blogStartDate: "2019-01-01",
-        menuCustomList: {},
+        menuCustomList: {
+			
+			
+		},
         menuNavList: [],
         menuUserInfoBgImg: '',
-        webpageTitleOnblur: "(oﾟvﾟ)ノ Hi",
-        webpageTitleOnblurTimeOut: 500,
-        webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
-        webpageTitleFocusTimeOut: 1000,
+        webpageTitleOnblur: "",
+        webpageTitleOnblurTimeOut: 0,
+        webpageTitleFocus: "",
+         webpageTitleFocusTimeOut: 0,
         webpageIcon: "",
         fontIconExtend: "",
         progressBar: {
@@ -202,7 +205,7 @@ if (initCheck()) {
             iconFont: {
                 icon:  "icon-xl",
                 color: "red",
-                fontSize: "16px"
+                fontSize: "20px"
             },
             left: "",
             right: "",
